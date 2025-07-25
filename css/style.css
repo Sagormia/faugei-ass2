@@ -24,10 +24,16 @@ body{
 .button{
     font-weight: 600;
     font-size: 16px;
-    line-height: 1.19;
+    line-height: 1;
     background-color: #E95A08;
-    padding: 19px 35px;
+    padding: 17px 35px;
     color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.3s;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
 }
 .button:hover{
     background-color: #1e1e1e;
@@ -129,4 +135,43 @@ h2{
     font-size: 50px;
     line-height: 1.36;
     color: #000000;
+}
+
+/* plant area */
+.plant_area{
+    padding-bottom: 120px;
+}
+.plant_area .title_wrap{
+    padding-bottom: 20px;
+}
+.title_wrap{
+    max-width: 880px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.title_wrap p{
+    margin-top: 16px;
+}
+.plant_card{
+    text-align: center;
+    color: #000000;
+}
+.plant_card img{
+    margin-bottom: 10px;
+}
+.plant_card img,
+.plant_card .button{
+    width: 100%;
+}
+.plant_card .button{
+    margin-top: 30px;
+}
+.plant_card p{
+    line-height: 1;
+    margin-top: 20px;
+    font-weight: 500;
+}
+.col-3{
+    width: 25%;
 }
